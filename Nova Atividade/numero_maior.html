@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número Maior</title>
+
+</head>
+<body>
+     <script>
+
+        var valor1 = prompt("Informe o valor: ");
+
+        var valor2 = prompt("Informe o valor: ");
+
+        var maior_numero;
+
+         valor1 = Number(valor1); 
+         valor2 = Number(valor2);
+
+        
+        if (valor1 > valor2) {
+            maior_numero = valor1; alert(maior_numero);
+        } else if (valor1 < valor2);{
+        maior_numero = valor2; alert(maior_numero);
+        }else { 
+        alert("Os dois números são iguais!");
+        }
+
+        alert("O maior valor é, " + maior_numero);
+        
+    </script>   
+</body>
+</html>
